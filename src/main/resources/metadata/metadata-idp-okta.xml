@@ -1,17 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="http://www.okta.com/exk8fja0pn7zO0b165d7" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDqDCCApCgAwIBAgIGAYZ6plFwMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJVUzETMBEG
-A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
-MBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi01NjYxNzIyMjEcMBoGCSqGSIb3DQEJ
-ARYNaW5mb0Bva3RhLmNvbTAeFw0yMzAyMjIxOTQxNDVaFw0zMzAyMjIxOTQyNDVaMIGUMQswCQYD
-VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsG
-A1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi01NjYxNzIyMjEc
-MBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
-ggEBAMCoER+Qlx6xBBUAcIxRk5ItmfldF+Rc+z+FCY/Ow7+cNBOIenRGfQLirQMwKzvZAg2o52xm
-OrtqsHX3NLEnSQDyQp/sE7MueHQCGcDnCAQEeOVbDSPW7bDOeK/qNyecTPKZreL70TQLPpeA9x7l
-WA59zxOX9or9BLuQJrXKOU/cZ4BXzue351R2qmuj7IqbXmsbetKegVFShYJZ9e9ta42OK1T8oDez
-dKZbPj5el1kj2jJ08GzO3TDg9j5B21x3sz2bxg6vFMP7e10hgLicxKVw1P5ZG995wUA+E8YbFehi
-YXRlcJiiKhmjRvHFl1F5vM4DPLaL4b8BJ1E21Byhb2cCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
-FMy00eWU4klEdV2PhoOPZE8Phj6tVDtEjr+ol7L7RJh6u2WPwLm6U9vE9wQ0/OYhOjThUsZqxqjL
-SqhZeMiFwohL6K5cmW2wTkxgfICyPY9g3BVDtogsZgbI0clIG5slwgiy9Kn7wQpSHWDvpEZXwmyV
-KodcWIpgBf0dUdBhsx+o34eG7ajsLb9HEisF0ntxlKdG2LJqlkJBtiUgI2Wo2jNshfzA7Cp9cNio
-+j3f1dwyWmmwWkyxGkEw8UwuwKMDHfuAwyBmZJmmG9zkHMlHkgQxxq3iI8Bs9E3lKYXtwLE7K+xe
-rTdWegAfIP7LXC3JKN1N/Meke5FJLXmWAMXKIw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-56617222.okta.com/app/dev-56617222_baeldungspringsecuritysaml2app_1/exk8fja0pn7zO0b165d7/slo/saml"/><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-56617222.okta.com/app/dev-56617222_baeldungspringsecuritysaml2app_1/exk8fja0pn7zO0b165d7/slo/saml"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-56617222.okta.com/app/dev-56617222_baeldungspringsecuritysaml2app_1/exk8fja0pn7zO0b165d7/sso/saml"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-56617222.okta.com/app/dev-56617222_baeldungspringsecuritysaml2app_1/exk8fja0pn7zO0b165d7/sso/saml"/></md:IDPSSODescriptor></md:EntityDescriptor>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+    entityID="http://www.okta.com/exkaz0815zNAeECMK5d7">
+    <md:IDPSSODescriptor WantAuthnRequestsSigned="false"
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIDqDCCApCgAwIBAgIGAYorxzqPMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJVUzETMBEG
+                        A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+                        MBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi0xMzgwODczMzEcMBoGCSqGSIb3DQEJ
+                        ARYNaW5mb0Bva3RhLmNvbTAeFw0yMzA4MjUwODE4NTFaFw0zMzA4MjUwODE5NTFaMIGUMQswCQYD
+                        VQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsG
+                        A1UECgwET2t0YTEUMBIGA1UECwwLU1NPUHJvdmlkZXIxFTATBgNVBAMMDGRldi0xMzgwODczMzEc
+                        MBoGCSqGSIb3DQEJARYNaW5mb0Bva3RhLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+                        ggEBAO84eb5meqKqgwxYlhkEF7qWSLMyYNNEZYVQ/Dt3/YavWapGuXp10h5cPrzu2PuIBKjzMLeP
+                        PkUgNUTZpHxjYa0l2uIIKcfGDLEszDJJ0eLeNPhwfi5Dmr7miuQXLydlaotSr74Sz5WHW/fjf7Z+
+                        Ab7XppBaDD8MBMgFg9ZyzmoRI9CnvziFyXMhWmy78QzuWaok+9i4xtoYTtDq1WTuT5K+TnYwkUXy
+                        /9dEnrpYZvQ3LC2BAuAU2Wjr9iVAOZdif3YVFZLqD/Nd2mjnNoah28WibNC+N2tjU3l4gxo5Gwzu
+                        00MGoBvEkUYu39MrA173OssQnYtnRvzGm027EUVBXMkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEA
+                        x01WjieDWR4jlv7v+PR34J8xkTbxkM2b8CU44vtSzW72SRyR/nPDlugGyTHf5eMoRUwl7JS9UnWA
+                        uTyvkDIxZVN8Evqjg05hALFtsjJR5IYZW1fiHF/nxm6kSKDCk7CfJ1I2b4MHv9RiAIs/g1LNfKdE
+                        zR1jYjpdffvy9BC44QFdOHFg75TzP7rWBPTa0DOcxEdxXtjv2cdks4s3Y6ZhHqah62nyfFBaMtRy
+                        dWYfsqsFhAjvZB6Yy097o4SaSzWIBTt7qeW7VZcCfa6UIJGzs+USGMXAQshyHKD4vqvAcG5HnMRL
+                        1zUluFTkLX3/qQa0btEL3WCYCBf/K7XqAwtIXQ==</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://dev-13808733.okta.com/app/dev-13808733_experimentingcmssso_1/exkaz0815zNAeECMK5d7/slo/saml" />
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://dev-13808733.okta.com/app/dev-13808733_experimentingcmssso_1/exkaz0815zNAeECMK5d7/slo/saml" />
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified</md:NameIDFormat>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat>
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://dev-13808733.okta.com/app/dev-13808733_experimentingcmssso_1/exkaz0815zNAeECMK5d7/sso/saml" />
+        <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://dev-13808733.okta.com/app/dev-13808733_experimentingcmssso_1/exkaz0815zNAeECMK5d7/sso/saml" />
+    </md:IDPSSODescriptor>
+</md:EntityDescriptor>
